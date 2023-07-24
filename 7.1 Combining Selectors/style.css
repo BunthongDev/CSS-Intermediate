@@ -1,0 +1,29 @@
+/* Write your code here: */
+body{
+    background-color: grey;
+}
+
+/* Grouping Selector (,) */
+h1, h2{
+    color: blueviolet;
+}
+
+/* Child Selector (>) */
+.box > p{
+    color: firebrick;
+}
+
+/* Descendant Selector (Space) */
+.list li{
+    color:blue;
+}
+
+/* Chain selector */
+li.done{
+    color: seagreen;
+}
+
+/* Combining combiner */
+ul p.done{
+    font-size:1.5rem;
+}
